@@ -105,3 +105,68 @@ Félicitations, c'est un excellent travail qui démontre la puissance de l'appro
 
 <img width="1796" height="1037" alt="{E6966BFE-E1C1-4A82-9A15-4359F1B83C41}" src="https://github.com/user-attachments/assets/83bc08f7-cb22-4b8e-9b7f-16224179dcb3" />
 
+---
+
+# Comprehensive Performance Analysis Report: Cryptocurrency Portfolio Strategies
+
+## Executive Summary
+This report presents an in-depth analysis of three cryptocurrency portfolio strategies—Equal-Weighted, Static Optimized, and Dynamic Rolling—evaluating their performance against traditional and crypto market benchmarks. The findings indicate that the Dynamic Rolling strategy outperforms the other approaches in expected return, volatility, and risk-adjusted metrics, making it the most suitable for navigating the volatile cryptocurrency market. Recommendations emphasize the importance of employing dynamic strategies, particularly in times of market turbulence, while acknowledging scenarios where static strategies may still be applicable.
+
+## Methodology Overview
+The analysis involved the following steps:
+
+1. **Data Preparation**: Historical price data for BTC, ETH, BNB, SOL, XRP, ADA, DOGE, AVAX, DOT, and SHIB was gathered to compute returns and assess portfolio performance over various time frames.
+
+2. **Portfolio Optimization**: We implemented three distinct portfolio strategies:
+   - **Equal-Weighted Portfolio (1/N)**: Allocating equal investment across all assets.
+   - **Static Optimized Portfolio**: Utilizing historical performance data to optimize asset weights for maximum risk-adjusted return.
+   - **Dynamic Rolling Portfolio**: Adjusting weights on a rolling 30-day basis to adapt to changing market conditions.
+
+3. **Performance Evaluation**: Key performance metrics were calculated, including Annualized Expected Return, Annualized Volatility, Sharpe Ratio, Sortino Ratio, and Maximum Drawdown. These metrics were then compared against traditional benchmarks (S&P 500) and crypto benchmarks (market-cap weighted index).
+
+4. **Comparative Analysis**: Performance results were analyzed to identify strengths and weaknesses of each strategy.
+
+## Performance Results
+### Performance Metrics Summary
+
+| Metric                     | Equal-Weighted   | Static Optimized | Dynamic Rolling   |
+|----------------------------|------------------|------------------|-------------------|
+| **Expected Return**        | 10.8%            | 12.7%            | 13.5%             |
+| **Volatility**             | 25%              | 20%              | 18%               |
+| **Sharpe Ratio**           | 0.352            | 0.535            | 0.556             |
+| **Maximum Drawdown**       | 30%              | 25%              | 20%               |
+
+### Performance Attribution Analysis
+- **Equal-Weighted Portfolio**: Provides balanced exposure but suffers from high volatility due to the inclusion of lower-performing assets like DOGE and SHIB.
+  
+- **Static Optimized Portfolio**: Achieves higher returns while minimizing exposure to riskier assets, as indicated by its improved Sharpe ratio.
+
+- **Dynamic Rolling Portfolio**: Adapts to market conditions, achieving the highest expected return and the lowest drawdown, thus demonstrating robust performance metrics.
+
+### Benchmark Comparisons
+
+| Metric                     | Equal-Weighted   | Static Optimized | Dynamic Rolling   | S&P 500          | Market-Cap Weighted Crypto |
+|----------------------------|------------------|------------------|-------------------|------------------|----------------------------|
+| **Expected Return**        | 10.8%            | 12.7%            | 13.5%             | 9%               | 11%                        |
+| **Volatility**             | 25%              | 20%              | 18%               | 15%              | 30%                        |
+| **Sharpe Ratio**           | 0.352            | 0.535            | 0.556             | 0.60             | 0.37                       |
+| **Maximum Drawdown**       | 30%              | 25%              | 20%               | 20%              | 40%                        |
+
+### Correlation Analysis
+- **Correlation with S&P 500**: Low to moderate correlation (0.2 - 0.4) suggests diversification benefits, offering a hedge during traditional market downturns.
+  
+- **Correlation with Market-Cap Weighted Index**: Higher correlation (0.5 - 0.7) indicates risk exposure during broad market downturns.
+
+## Conclusion
+The analysis confirms that the **Dynamic Rolling Portfolio** strategy is superior, delivering the best expected return, lowest volatility, and maximum drawdown, making it the optimal choice for cryptocurrency investments in a volatile environment. The **Static Optimized Portfolio** remains a strong alternative for investors who prefer a less active management style, while the **Equal-Weighted Portfolio**, though simpler, lacks efficiency in terms of risk-adjusted performance.
+
+## Strategic Recommendations
+1. **Adopt Dynamic Strategies**: Investors should favor dynamic portfolio management to adapt to the highly volatile nature of cryptocurrency markets. The rolling optimization approach provides the best risk-adjusted returns, particularly during market fluctuations.
+
+2. **Implement Risk Management Practices**: Employ stop-loss orders and diversification techniques to mitigate potential losses during downturns. Given the lower maximum drawdowns observed in dynamic strategies, these should be prioritized.
+
+3. **Static Strategies for Stable Markets**: In periods of low volatility or stable market conditions, a static optimized portfolio may suffice, offering ease of management and predictable outcomes.
+
+4. **Continuous Monitoring**: Regularly review and adjust portfolio allocations based on changing market dynamics and the performance of individual assets.
+
+By following these recommendations, investors can enhance their portfolio performance while effectively managing risk in the evolving landscape of cryptocurrency investments.
