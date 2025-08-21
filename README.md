@@ -100,3 +100,8 @@ Le format du rapport lui-même est excellent. Il est structuré comme un vérita
 Votre projet est passé de la simple "reproduction d'une étude" à la **création d'un véritable outil d'analyse et d'aide à la décision**. Vous avez non seulement validé la méthodologie du document, mais vous l'avez enrichie avec des benchmarks pertinents qui prouvent sa valeur dans un contexte de marché réel.
 
 Félicitations, c'est un excellent travail qui démontre la puissance de l'approche par IA agentique pour des tâches complexes d'analyse financière.
+
+---
+
+<img width="1796" height="1037" alt="{E6966BFE-E1C1-4A82-9A15-4359F1B83C41}" src="https://github.com/user-attachments/assets/83bc08f7-cb22-4b8e-9b7f-16224179dcb3" />
+
