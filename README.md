@@ -170,3 +170,74 @@ The analysis confirms that the **Dynamic Rolling Portfolio** strategy is superio
 4. **Continuous Monitoring**: Regularly review and adjust portfolio allocations based on changing market dynamics and the performance of individual assets.
 
 By following these recommendations, investors can enhance their portfolio performance while effectively managing risk in the evolving landscape of cryptocurrency investments.
+
+---
+
+Absolument. C'est une excellente question car elle va au cœur de l'utilité de ce système.
+
+Votre système Crew AI vous donne une instruction très précise, qui se décompose en deux parties : **la stratégie à suivre** et **les actions concrètes à effectuer**.
+
+### 1. La Stratégie à Suivre : "Dynamic Rolling"
+
+La première chose que le rapport vous dit est : "Oubliez la stratégie d'acheter un peu de tout en espérant que ça monte ('Equal-Weighted') et oubliez la stratégie de faire une seule grosse analyse qui restera fixe ('Static Optimized'). **La seule stratégie gagnante sur le long terme est de vous adapter en permanence.**"
+
+C'est la stratégie "Dynamic Rolling". Concrètement, cela signifie : **Vous devez réévaluer et réajuster votre portefeuille à intervalles réguliers (ici, tous les 30 jours).**
+
+### 2. Les Actions Concrètes : Les Poids du Portefeuille
+
+Maintenant, la question est : "OK, je dois réajuster tous les 30 jours, mais pour acheter et vendre *quoi* ?"
+
+La réponse se trouve dans les **résultats détaillés de votre simulation**. Le rapport final est un résumé, mais l'agent "Portfolio Strategy Reporter" a dû calculer les **poids optimaux** pour la période la plus récente. C'est cette liste de pourcentages qui constitue votre **ordre de mission** pour investir.
+
+#### Exemple Concret pour Aujourd'hui (21/08/2025)
+
+Imaginons que vous trouviez dans les résultats détaillés de votre dernière exécution la liste de poids suivante (ce sont des exemples pour illustrer) :
+
+*   **Bitcoin (BTC) :** 22%
+*   **Ethereum (ETH) :** 18%
+*   **Solana (SOL) :** 15%
+*   **Avalanche (AVAX) :** 12%
+*   **Binance Coin (BNB) :** 10%
+*   **Cardano (ADA) :** 8%
+*   **Polkadot (DOT) :** 8%
+*   **Ripple (XRP) :** 7%
+*   **Dogecoin (DOGE) :** 0%
+*   **Shiba Inu (SHIB) :** 0%
+*   **Total : 100%**
+
+Le système vous dit : "Pour les 30 prochains jours, voici la composition idéale de votre portefeuille pour maximiser le rendement ajusté au risque."
+
+**Voici ce que vous faites avec 1 000 € :**
+
+*   Vous achetez pour **220 €** de Bitcoin.
+*   Vous achetez pour **180 €** d'Ethereum.
+*   Vous achetez pour **150 €** de Solana.
+*   Vous achetez pour **120 €** d'Avalanche.
+*   ... et ainsi de suite.
+*   Vous n'achetez **RIEN** de Dogecoin ou de Shiba Inu, car le modèle les a jugés trop risqués pour le rendement potentiel qu'ils offraient sur la période récente.
+
+**Vous avez maintenant un portefeuille qui correspond exactement aux instructions du modèle.**
+
+---
+
+### Le Processus dans 30 Jours (le Rééquilibrage)
+
+C'est là que la magie de la stratégie "dynamique" opère.
+
+1.  **Le marché a évolué :** Dans 30 jours (le 21/09/2025), votre portefeuille ne vaudra plus 1 000 €. Disons qu'il vaut 1 100 €. De plus, les pourcentages auront bougé. Peut-être que Solana a surperformé et représente maintenant 18% de votre portefeuille, tandis que Bitcoin n'en représente plus que 20%.
+
+2.  **Vous relancez le système Crew AI :** Il va analyser les données fraîches du dernier mois et générer une **NOUVELLE** liste de poids optimaux. Par exemple :
+    *   **Bitcoin (BTC) :** 25%
+    *   **Ethereum (ETH) :** 20%
+    *   **Solana (SOL) :** 12% (sa performance a peut-être augmenté son risque)
+    *   etc.
+
+3.  **Vous exécutez les nouveaux ordres :** Votre instruction est de **rééquilibrer** votre portefeuille pour qu'il corresponde à ces nouveaux pourcentages.
+    *   Votre ligne Solana vaut maintenant `18% * 1 100 € = 198 €`. Le nouveau poids cible est `12% * 1 100 € = 132 €`. L'instruction est : **Vendez pour 66 € de Solana.**
+    *   Votre ligne Bitcoin vaut `20% * 1 100 € = 220 €`. Le nouveau poids cible est `25% * 1 100 € = 275 €`. L'instruction est : **Achetez pour 55 € de Bitcoin.**
+
+Vous utilisez l'argent de la vente de Solana (et d'autres) pour acheter du Bitcoin (et d'autres).
+
+En résumé, l'instruction concrète du système est un cycle :
+
+**Tous les 30 jours, lancez le système pour obtenir la nouvelle liste de pourcentages, puis achetez et vendez ce qu'il faut pour que votre portefeuille corresponde exactement à cette nouvelle répartition.**
